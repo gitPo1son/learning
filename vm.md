@@ -1,6 +1,10 @@
 # 修改 rhel-guest-image 的默认密码
 ```
 # rhel: yum -y install guestfish
+        yum install libguestfs libguestfs-tools 
+        yum install '*guestf*'
+        
+        
 # fedora: yum -y install libguestfs-tools
 
 1.生成密码
